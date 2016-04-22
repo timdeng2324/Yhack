@@ -1,3 +1,9 @@
-Run Convo.java to talk to the computer!
+First, go to Facebook settings, and click the link at the bottom that says "Download a copy" of your Facebook data.
+Follow the instructions (this might take some time, since it has to process).
+Once you've downloaded all the data, find messages.htm and put it in the same folder as the source code.
+Run rm.pl and redirect output to a file called out.txt (perl rm.pl > out.txt).
+Compile Convo.java (javac Convo.java).
+
+Run Convo.java to talk to the computer (java Convo).
 When it prompts you with "Hey! Who are you talking to?", you can give the program a name.
 Proceed to talk to it. You can say "bye" to quit.
